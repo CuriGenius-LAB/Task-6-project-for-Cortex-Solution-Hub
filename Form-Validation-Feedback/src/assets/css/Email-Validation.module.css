@@ -1,0 +1,35 @@
+
+.formInput:focus{
+
+    outline: none;
+}
+
+label.focus{
+
+    top: -1px;
+
+    font-size: 0.875rem;
+}
+
+.submitBtn:hover{
+
+    border-color: white;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    color: white;
+}
+
+.submitBtn:disabled{
+
+    opacity: 0.5;
+
+    cursor: not-allowed;
+}
+
+.submitBtn:disabled:hover{
+
+    background: white;
+
+    color: black;
+}
